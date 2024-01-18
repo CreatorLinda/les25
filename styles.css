@@ -1,0 +1,114 @@
+/* Voeg deze stijlen toe aan styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #c77dff; /* Lichtpaars */
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #logoContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  #logo {
+    max-width: 150px;
+    margin-right: 150px;
+  }
+  
+  #socialMediaButtons {
+    display: flex;
+  }
+  
+  .socialButton,
+  #contactFormulier button,
+  #veranderTekstBtn {
+    background-color: #c77dff; /* Lichtpaars */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .socialButton:hover,
+  #contactFormulier button:hover,
+  #veranderTekstBtn:hover {
+    background-color: #800080; /* Donkerpaars bij hover */
+  }
+  
+  .socialButton:active,
+  #contactFormulier button:active,
+  #veranderTekstBtn:active {
+    background-color: #000; /* Zwart bij klik */
+  }
+  
+  #mijnContainer {
+    text-align: center;
+    margin: 50px auto; /* Center de container */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #c77dff; /* Lichtpaars */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contactFormulier {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  #contactFormulier label {
+    margin-bottom: 5px;
+  }
+  
+  #contactFormulier input,
+  #contactFormulier textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  #veranderTekstBtn {
+    background-color: #c77dff; /* Lichtpaars */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  #veranderTekstBtn:hover {
+    background-color: #800080; /* Donkerpaars bij hover */
+  }
+  
+  #veranderTekstBtn:active {
+    background-color: #000; /* Zwart bij klik */
+  }
+  
+  
+  
+  

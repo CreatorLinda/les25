@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Voorbeeld</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div id="logo">
+      <img src="afbeeldingen/cl_eigen_logo.png" alt="Logo" id="logo">
+      <h1>CreatorLinda</h1>
+    </div>
+    <div id="socialMediaButtons">
+      <a href="https://www.instagram.com/creatorlindaaa/" class="socialButton" id="instagramBtn">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100090637350905" class="socialButton" id="facebookBtn">Facebook</a>
+    </div>
+  </header>
+
+
+
+  
+  <div id="mijnContainer">
+    <h2>Crazy road</h2>
+    <p id="tekstElement">Bijna 1 jaar geleden kwam ik in aanraking met webdesign. Mijn ex-vriend vroeg me een website te maken. Hierna ging dit echt super goed via wordpress. Is nog steeds mijn voorkeur. Samen met elementor pro en costume css toevoegen komen er nu super mooie websites uit. Ook al is hij nog niet naar smaak, maar dan kunt u al een kijkje nemen. </p>
+    <button id="veranderTekstBtn" onclick="window.location.href='https://www.creatorlinda.nl/'">Mijn website</button>
+  </div>
+
+
+  
+  <footer>
+    <h3>Contacteer mij</h3>
+    <form id="contactFormulier" action="https://formspree.io/f/xeqyodnj">
+      <label for="naam">Naam:</label>
+      <input type="text" id="naam" name="naam" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="bericht">Bericht:</label>
+      <textarea id="bericht" name="bericht" rows="4" required></textarea>
+
+      <button type="submit">Verzenden</button>
+    </form>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
